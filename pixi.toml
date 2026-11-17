@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Yongjun Lee <lyj3594513@naver.com>"]
+channels = ['https://prefix.dev/robostack-jazzy', "https://prefix.dev/conda-forge"]
+name = "ros_ws"
+platforms = [ { name = "osx-latest", platform = "osx-arm64", macos = "14" }]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ros-jazzy-desktop = ">=0.11.0,<0.12"
