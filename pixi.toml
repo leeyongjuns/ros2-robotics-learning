@@ -9,3 +9,4 @@ version = "0.1.0"
 
 [dependencies]
 ros-jazzy-desktop = ">=0.11.0,<0.12"
+ros-dev-tools = ">=1.0.3,<2"
